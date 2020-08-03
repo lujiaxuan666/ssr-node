@@ -3,5 +3,5 @@
 
 ### 使用方法
 ```shell
-wget -N --no-check-certificate "https://raw.githubusercontent.com/linux-terminal/ssr-node/master/ssr.sh" && bash ssr.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/lujiaxuan666/ssr-node/master/ssr.sh" && bash ssr.sh
 ```
