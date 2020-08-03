@@ -198,7 +198,7 @@ backend_docking_netflix(){
 start_menu(){
     clear
     greenbg "==============================================================="
-    greenbg "程序：sspanel后端对接【破解付费授权版】 v1.3                           "
+    greenbg "程序：sspanel后端对接【破解付费授权版】 v1.3 x                           "
     greenbg "系统：Centos7.x、Ubuntu、Debian等                              "
     #greenbg "脚本作者：Azure  联系QQ：2894049053 TG:@Latte_Coffe            "
     #greenbg "项目来源：Nimaqu Github:Anankke/SSPanel-Uim                    "
