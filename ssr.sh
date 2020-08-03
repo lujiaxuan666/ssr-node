@@ -109,7 +109,7 @@ backend_docking_set(){
         start=$(date "+%s")
         install_tool
         check_docker
-        docker run -d --name=ssrmu -e NODE_ID=$node_id -e API_INTERFACE=modwebapi -e WEBAPI_URL=$web_url -e WEBAPI_TOKEN=$webapi_token --network=host --log-opt max-size=50m --log-opt max-file=3 --restart=always baiyuetribe/sspanel:ssr
+        docker run -d --name=ssrmu -e speedtest=0 -e NODE_ID=$node_id -e API_INTERFACE=modwebapi -e WEBAPI_URL=$web_url -e WEBAPI_TOKEN=$webapi_token --network=host --log-opt max-size=50m --log-opt max-file=3 --restart=always baiyuetribe/sspanel:ssr
         greenbg "恭喜您，后端节点已搭建成功"
         end=$(date "+%s")
         echo 安装总耗时:$[$end-$start]"秒"           
